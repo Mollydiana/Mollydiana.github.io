@@ -1,0 +1,254 @@
+html, body {
+    margin: 0 ;
+    padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+   font-family: sans-serif;
+   font-size: 14px;
+   text-transform: lowercase;
+
+
+
+
+}
+a:link, a:visited {
+
+}
+a:hover, a:active {
+
+}
+
+.nav nav{
+    background-color: #000000;
+    height: 33px;
+    clear: both;
+    Border-radius: 0;
+    -moz-Border-radius: 0px;
+    -webkit-Border-radius: 0px;
+    position: inherit;
+    width: 100%;
+
+
+
+}
+.nav nav ul {
+
+    list-style: none;
+    margin: 0px;
+    font-size: 14px;
+    font-stretch: normal;
+    font-weight: 700;
+    text-color: #FFF;
+
+}
+.nav nav ul li {
+    float: right;
+    display: inline-block;
+}
+.nav nav a:link, .nav nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 8px 47px;
+    height: 22px;
+}
+.nav nav a:hover, .nav nav a:active,
+.nav nav .active a:link, .nav nav .active a:visited {
+    background-color:#CC0000;
+    text-shadow: none;
+    display: inline-block;
+
+
+
+}
+.name {
+    font-family: "bell MT";
+    margin: 5;
+
+}
+#logo {
+    clear: both;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+li div { display: none; }
+li:hover>div { display: inline; }
+
+
+
+.polaroid-images a
+{
+	background: white;
+	display: inline-block;
+
+    margin-top: -20px;
+	padding:  20px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+    position:relative;
+
+}
+
+.polaroid-images img {
+
+	display: block;
+
+	width: inherit;
+
+}
+.polaroid-images a:nth-child(2n)
+{
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	transform: rotate(4deg);
+}
+.polaroid-images a:nth-child(3n) {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+.polaroid-images a:nth-child(4n)
+{
+	-webkit-transform: rotate(9deg);
+	-moz-transform: rotate(9deg);
+	transform: rotate(9deg);
+
+}
+.polaroid-images a:nth-child(5n)
+{
+	-webkit-transform: rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+}
+.polaroid-images a:hover{
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+        transform: rotate(10deg);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+        transform: scale(1.2);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+
+}
+.pics {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p#under-logo {
+
+    padding-left: 360px;
+    margin-top: 0px;
+}
+.underlogo {
+
+    font-family: 'Bell MT';
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-left: 350px;
+    margin-top: -40px;
+    text-transform: uppercase;
+
+}
+.mainFooter {
+
+
+
+}
+div p {
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.class {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 20px;
+
+}
+.pics {
+    margin-top:60px;
+}
+.underlogo ul li {
+    display: inline;
+}
+.about-me {
+
+    position: inherit;
+    clear: both;
+    /*border: 1px black solid;*/
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    background-color: #F5F7F9;
+    margin: 100px 160px 200px;
+    padding: 300px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+
+}
+
+.mainFooter {
+
+    background-color: #000000;
+    height: 33px;
+    clear: both;
+    Border-radius: 0;
+    -moz-Border-radius: 0px;
+    -webkit-Border-radius: 0px;
+    position: fixed;
+    width: 100%;
+    margin-top: -3em;
+    bottom: 0;
+
+}
+.mainFooter p {
+    text-decoration: none;
+    color: #CC0000;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: lowercase;
+    display: inline-block;
+    padding-right: 45px;
+
+    float: right;
+
+}
+#secondpar {
+    margin-top: 2px;
+}
+
+#facepic {
+
+    margin-top: 220px;
+    margin-left: 148px;
+
+}
+
+#aboutme {
+
+        position: inherit;
+    clear: both;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    background-color: #F5F7F9;
+    margin: 300px 50px 200px;
+    padding: 20px;
+
+
+
+}

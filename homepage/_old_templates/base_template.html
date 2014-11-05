@@ -1,0 +1,50 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<header>
+
+    <div class="nav">
+        <nav><ul>
+            <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+            <li><a href="contactpage.html">Contact</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="{% url 'aboutme' %}">about me</a></li>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            </ul>
+
+                    <div><img id="logo" src={% static "img/MollyCarrlogo.png" %}>
+                  </div>
+        <div class="underlogo">
+            <p> Aspiring software developer  |  Musician  |  Entrepreneur | Language Teacher</p>
+            </div>
+        </nav>
+    </div>
+</header>
+<body>
+
+{% block content %}{% endblock content %}</body>
+{##}
+{#             <div class="pics">#}
+{##}
+{#                        <div class="polaroid-images">#}
+{##}
+{#                            <a href="" title="face"><img height="200" src={% _old_static "img/face.jpg" %}  /></a>#}
+{#                            <a href="" title="accordion"><img height="200" src={% _old_static "img/accordion.png" %}  /></a>#}
+{#                            <a href="" title="comp"><img height="200" src={% _old_static "img/comp2.jpg" %}  /></a>#}
+{#                            <a href="" title="Mandolin"><img height="200" src={% _old_static "img/mando.jpg" %}  /></a>#}
+{#                            <a href="" title="kinder"><img height="200" src={% _old_static "img/kinder1.jpg" %}  /></a>#}
+{#                        </div>#}
+{##}
+{#                </div>#}
+{##}
+{#                     <div class="about-me"> <p>#}
+{#                I have always been fascinated with the interface between language and community. I have taught English in Spain and Spanish in the U.S., earned a B.A. in social science, worked with refugees from Nepal, Congo, Ethiopia and Mexico, and played traditional music on stages and at festivals in the U.S. and Galicia.#}
+{#                </p>#}
+{#             <p id="secondpar">In continuing my focus on social/entrepreneurial endeavors, this past year I have concentrated on starting a company with the goal of helping people foster meaningful connections. I have come to realize that programming is the nexus of social connectivity, language and technology, and learning to be a good programmer is my current objective.#}
+{#                </p>#}
+{#                </div>#}
+ <footer class="mainFooter">
+         <p>Contact information: <a href="Mollydiana@gmail.com">
+         Mollydiana@gmail.com</a> </p>
+        </footer>
+</html>
